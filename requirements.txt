@@ -4,3 +4,4 @@ pandasai
 pydantic
 python-dotenv
 matplotlib
+tkinter
