@@ -5,5 +5,5 @@ pydantic
 python-dotenv
 matplotlib
 seaborn
-tkinter
+
 
