@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env
 load_dotenv()
 
-st.image("/Users/shaikmujeeburrahman/Downloads/Odinschool.jpg")
+st.image("Odinschool.jpg")
 
 st.title("Odinschool's Data Analysis App")
 st.subheader("Created by Mujeeb")
