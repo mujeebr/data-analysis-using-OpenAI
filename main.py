@@ -91,7 +91,7 @@ if file is not None:
         if query:
             
             with st.spinner("Fetching info"):
-                st.write(df.chat(query))
+                st.write(df_smart.chat(query))
                 
 #                 
 
