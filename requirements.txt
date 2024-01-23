@@ -5,4 +5,4 @@ pydantic
 python-dotenv
 matplotlib
 seaborn
-openpyxl
+openpyxl==3.0.18
