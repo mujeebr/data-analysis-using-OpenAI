@@ -4,8 +4,7 @@ import pandasai
 from pandasai.llm import OpenAI
 import os
 from pandasai import SmartDataframe
-import matplotlib
-matplotlib.use("TkAgg")
+
 
 import os
 from dotenv import load_dotenv
