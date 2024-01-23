@@ -8,4 +8,5 @@ seaborn
 openpyxl
 xlrd
 pip install xlrd
+pip install openpyxl
 
