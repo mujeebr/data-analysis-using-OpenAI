@@ -9,7 +9,8 @@ import warnings
 
 # Filter all warnings
 warnings.filterwarnings("ignore")
-
+fig, ax = plt.subplots()
+st.pyplot(fig)
 
 import os
 from dotenv import load_dotenv
@@ -36,8 +37,7 @@ if file is not None:
         if query:
             with st.spinner("Fetching info"):
                 st.write(df.chat(query))
-                fig, ax = plt.subplots()
-                st.pyplot(fig)
+
 
         else:
             st.warning("please enter your query")
