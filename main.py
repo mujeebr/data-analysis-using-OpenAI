@@ -90,6 +90,8 @@ if file is not None:
         if query:
             with st.spinner("Fetching info"):
                 st.write(df_smart.chat(query))
+                with st.expander("Rationale"):
+                    st.write("Here is the explanation or rationale for the answer.")
         else:
             st.warning("Please enter your query")
 
