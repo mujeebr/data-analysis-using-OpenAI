@@ -6,6 +6,7 @@ import os
 from pandasai import SmartDataframe
 from matplotlib import pyplot as plt
 import warnings
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Filter all warnings
 warnings.filterwarnings("ignore")
