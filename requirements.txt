@@ -6,7 +6,7 @@ python-dotenv
 matplotlib
 seaborn
 openpyxl
-xlrd
+xlrd=1.1.0
 pip install xlrd
 pip install openpyxl
 
