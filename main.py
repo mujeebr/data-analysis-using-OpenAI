@@ -4,6 +4,9 @@ import pandasai
 from pandasai.llm import OpenAI
 import os
 from pandasai import SmartDataframe
+import matplotlib
+import tkinter
+matlplotlib.add("TkAgg")
 
 
 import os
