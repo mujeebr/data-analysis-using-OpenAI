@@ -9,8 +9,8 @@ import warnings
 
 # Filter all warnings
 warnings.filterwarnings("ignore")
-fig, ax = plt.subplots()
-st.pyplot(fig)
+# fig, ax = plt.subplots()
+
 
 import os
 from dotenv import load_dotenv
@@ -41,4 +41,4 @@ if file is not None:
 
         else:
             st.warning("please enter your query")
-
+st.pyplot()
