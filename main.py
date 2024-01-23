@@ -54,7 +54,6 @@ from pandasai.llm import OpenAI
 from pandasai import SmartDataframe
 import os
 from dotenv import load_dotenv
-import openpyxl
 from matplotlib import pyplot as plt
 import warnings
 st.set_option('deprecation.showPyplotGlobalUse', False)
