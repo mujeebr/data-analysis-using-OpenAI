@@ -87,9 +87,13 @@ if file is not None:
     df_smart = SmartDataframe(df, config={"llm": llm})
 
     if st.button("Fetch"):
+        
         if query:
+            
             with st.spinner("Fetching info"):
-#                 st.write(df.chat(query))
+                st.write(df.chat(query))
+                
+#                 
 
         else:
             st.warning("Please enter your query")
