@@ -6,4 +6,4 @@ python-dotenv
 matplotlib
 seaborn
 tkinter
-
+libtk8.6
