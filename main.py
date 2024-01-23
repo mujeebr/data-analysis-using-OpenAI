@@ -42,4 +42,23 @@ if file is not None:
 
         else:
             st.warning("please enter your query")
+else:
+    
+    df=pd.read_excel(file)
+    st.write(df.head(5))
+
+
+    query=st.text_area("What do you want to know from the csv file?")  
+
+    
+    llm = OpenAI(api_token=os.getenv("API_KEY"))
+    df=SmartDataframe(df,config={"llm":llm})
+    if st.button("Fetch"):
+        if query:
+            with st.spinner("Fetching info"):
+                st.write(df.chat(query))
+
+
+        else:
+            st.warning("please enter your query")
 st.pyplot()
