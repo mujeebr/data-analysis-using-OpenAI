@@ -5,7 +5,10 @@ from pandasai.llm import OpenAI
 import os
 from pandasai import SmartDataframe
 
+import warnings
 
+# Filter all warnings
+warnings.filterwarnings("ignore")
 
 
 import os
