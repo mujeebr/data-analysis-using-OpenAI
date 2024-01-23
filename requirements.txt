@@ -5,4 +5,5 @@ pydantic
 python-dotenv
 matplotlib
 seaborn
-openpyxl==3.0.18
+openpyxl
+pip install openpyxl
