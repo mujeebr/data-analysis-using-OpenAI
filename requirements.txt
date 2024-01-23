@@ -7,4 +7,5 @@ matplotlib
 seaborn
 openpyxl
 xlrd
+pip install xlrd
 
