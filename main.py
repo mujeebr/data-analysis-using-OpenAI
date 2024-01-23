@@ -4,7 +4,7 @@ import pandasai
 from pandasai.llm import OpenAI
 import os
 from pandasai import SmartDataframe
-
+from matplotlib import pyplot as plt
 import warnings
 
 # Filter all warnings
@@ -36,7 +36,8 @@ if file is not None:
         if query:
             with st.spinner("Fetching info"):
                 st.write(df.chat(query))
-                st.pyplot()
+                fig, ax = plt.subplots()
+                st.pyplot(fig)
 
         else:
             st.warning("please enter your query")
